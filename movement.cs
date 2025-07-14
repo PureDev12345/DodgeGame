@@ -7,25 +7,19 @@ public class movement : MonoBehaviour
 {
     public CharacterController controller;
     public Transform player;
-    public float speed = 12f;
+    public float speed = 12f;//players speed, adjust if u like.
 
-    public LayerMask obstacle;
+    public LayerMask obstacle;//layer mask obstacle.
     bool istouching;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
-        istouching = Physics.CheckSphere(player.position, 2f, obstacle);
+        istouching = Physics.CheckSphere(player.position, 2f, obstacle);//creates a sphere with diameter of 2, if the obstacle layer toches, this bool is true.
 
         if (istouching )
         {
             print("touching");
-            Application.Quit();
+            Application.Quit();//if this is true then the game ends, if u want u can add a score variable.
         }
 
         float x = Input.GetAxis("Horizontal");
