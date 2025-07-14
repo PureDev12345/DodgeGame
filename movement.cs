@@ -24,7 +24,7 @@ public class movement : MonoBehaviour
 
         if (istouching )
         {
-            print("nigga");
+            print("touching");
             Application.Quit();
         }
 
