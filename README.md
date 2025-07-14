@@ -9,7 +9,7 @@ This is also a step by step guide to making the game.
   create a cube and extend its lengths.
 
 # Step 3: Add the player
-  create a cube and add it infront of the camera. also color the camera red through material (to make sure the player can be easily seen.). Finally put it under the camera.
+  create a cube and add it infront of the camera. also color the player cube red through material (to make sure the player can be easily seen.). Finally put it under the camera.
 also add a character controler in the camera.
 
 # Step 4: Adding boundaries
