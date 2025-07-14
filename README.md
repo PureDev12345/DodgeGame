@@ -18,9 +18,13 @@ also add a character controler in the camera.
 # Step 5: Making obstacle
   create a cube, shape it to a suitable size so that the player can avoid it. make it into a prefab, add obstacle layermask to the prefab. after this delete the cube in game scene.
 
-# Step 6: Adding Scripts:
-  Create an empty in the game, add "game.cs" scripts in it. Add the "move and destroy.cs" script to the prefab. add the "movement.cs" script to the camera.
+# Step 6: Adding Scripts
+  Create an empty in the game, add "game.cs" scripts in it. Add the "move and destroy.cs" script to the obstacle prefab. add the "movement.cs" script to the camera.
 
-# Step 7: Final Touches:
-  add all the necessary details in the code. in the "movement.cs" add the character controller from the camera.
-  
+# Step 7: Final Touches
+  add all the necessary details in the code. in the "movement.cs" add the character controller from the camera,adjust speed,and add obstacle layer. In "game.cs" add  obstacle prefab. Finally in "move and destroy.cs" adjust speed accordingly in the obstacle prefab.
+
+# Step 8: Enjoy
+  The game is complete and now you have completed your first game, have fun, enjoy and experiment. :)
+
+  Final Note, Thanks for supporting me, even if I am just some  guy, you showed support by watching my videos. No amount of thanks can be enough for you. :)
